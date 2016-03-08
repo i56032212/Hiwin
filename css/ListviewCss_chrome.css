@@ -1,0 +1,283 @@
+﻿html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border: none;
+    opacity: 0;
+}
+
+body {
+    background-color: transparent;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.BBigDiv {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 375px;
+    height: 627px;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.11);
+    border-width: 1px;
+}
+
+#imgHika {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    left: 20px;
+    border-style: solid;
+    border-color: rgba(160, 161, 163, 1.0);
+    border-width: 5px;
+    border-radius: 100%;
+    background: rgba(84, 84, 84, 1.0);
+    background-image: url(http://140.127.22.36/pic/Action/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+    top: 40px;
+}
+
+#Action {
+    position: absolute;
+    height: 40px;
+    width: 280px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: rgb(155, 155, 155);
+    top: 50px;
+    left: 60px;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 500;
+    font-family: Arial;
+}
+
+#Loading {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 300px;
+    left: 160px;
+    z-index:3;
+}
+
+#Reload {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 300px;
+    left: 160px;
+}
+
+.Title {
+    height: 35px;
+    background-color: #96cb28;
+}
+
+#Sex {
+    height: 35px;
+    width: 35px;
+}
+
+#Logout {
+    height: 35px;
+    width: 35px;
+    margin-left: 300px;
+}
+
+.DownLine {
+    position: absolute;
+    height: 10px;
+    width: 355px;
+    left: 10px;
+    bottom: 0px;
+    background-color: #96cb28;
+}
+
+#Name {
+    position: absolute;
+    height: 35px;
+    line-height: 35px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: larger;
+}
+
+.DTshow {
+    background-color: #58C2E5;
+    color: #FFFFFF;
+    text-align: center;
+    outline: 0;
+}
+
+    .DTshow:active {
+        background-color: #bdefff;
+    }
+
+.Logo {
+    top: 2%;
+    left: 2%;
+    position: absolute;
+}
+
+.Logout {
+    top: 2%;
+    right: 2%;
+    position: absolute;
+    background-color: #F5FFFF;
+    border-color: #2f8ef6;
+    border-width: 1px;
+    border-radius: 10px;
+    outline: 0;
+    z-index: 1;
+}
+
+    .Logout:active {
+        background-color: #bdefff;
+    }
+
+.Userid {
+    top: 2%;
+    right: 2%;
+    position: absolute;
+    text-align: center;
+}
+
+.Listbox {
+    width: 95%;
+    top: 105px;
+    overflow: auto;
+    border-style: solid;
+    border-color: rgba(102, 102, 102, 0.0);
+    border-width: 5px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+#TRID {
+    position: absolute;
+    width: 140px;
+    height: 20px;
+    background-color: rgb(155, 155, 155);
+    color: black;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    left: 5%;
+    top: 15px;
+    border: solid;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+#PulseChart {
+    position: absolute;
+    width: 96%;
+    height: 27%;
+    left: 2%;
+    top: 50px;
+    background-color: #404040;
+    border: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#SBPChart {
+    position: absolute;
+    width: 96%;
+    height: 27%;
+    left: 2%;
+    top: 195px;
+    background-color: #404040;
+    border: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#LeftAngChart {
+    position: absolute;
+    width: 47%;
+    height: 140px;
+    left: 2%;
+    top: 340px;
+    background-color: #404040;
+    border: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+#RightAngChart {
+    position: absolute;
+    width: 47%;
+    height: 140px;
+    right: 2%;
+    top: 340px;
+    background-color: #404040;
+    border: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Toptab {
+    width: 100%;
+    position: absolute;
+    background-color: #58C2E5;
+}
+
+.boxtxt {
+    margin-left: 20%;
+    margin-right: 5%;
+    margin-top: 0px;
+    outline: none;
+    border: none;
+}
+
+.dtMsgIcon {
+    height: 60%;
+    vertical-align: middle;
+    margin-left: 2%;
+}
+
+.dtMsgDate {
+    background-color: #FFFFFF;
+    color: rgba(0, 0, 0, 0.6);
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 30px;
+    display: inline;
+    vertical-align: middle;
+    margin-left: 1%;
+}
+
+.dtMsgData {
+    color: rgba(0, 0, 0, 0.6);
+    display: inline;
+    vertical-align: middle;
+    margin-left: 1%;
+}
+
+.dtMsgLine {
+    position: absolute;
+    border-style: solid;
+    border-color: #FFFFFF;
+    bottom: 0px;
+}
